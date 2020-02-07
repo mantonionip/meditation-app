@@ -234,7 +234,7 @@ html {
 .app {
   height: 100vh;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
 }
 
@@ -258,7 +258,7 @@ html {
   height: 50%;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%) rotate(-90deg);
   pointer-events: none;
 }
 
@@ -267,6 +267,7 @@ html {
   bottom: 10%;
   color: #fff;
   font-size: 50px;
+  font-family: "Chewy", cursive;
 }
 
 video {
@@ -293,6 +294,10 @@ video {
 .time-select button:hover {
   color: black;
   background: #fff;
+}
+
+.time-select button {
+  font-family: "Patrick Hand", cursive;
 }
 
 .sound-picker button {
