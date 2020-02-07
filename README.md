@@ -1,2 +1,2 @@
 # Meditation App
-## A simple meditation app build with Vanilla JavaScript for the beyond bootcamp course.
+### A simple meditation app built with Vanilla JavaScript for the beyond bootcamp course.
